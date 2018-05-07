@@ -1,0 +1,17 @@
+includepath src
+includepath magic_particles/marmalade
+
+files
+{
+	[src]
+	(src)
+	MagicEmitter.cpp
+	MagicEmitter.h
+	ResMagicParticles.cpp
+	ResMagicParticles.h
+}
+
+library
+{
+	"magic_particles/marmalade,mmagic"
+}

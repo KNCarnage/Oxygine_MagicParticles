@@ -1,0 +1,12 @@
+syntax: glob
+example/HelloWorld/build_helloworld_src_vc10/
+example/HelloWorld/build_helloworld_src_vc11
+example/build
+example/HelloWorld/proj.cmake/build/
+example/HelloWorld/proj.emscripten/build/
+example/HelloWorld/proj.emscripten/data.js
+example/MPHello/proj.emscripten/build/
+example/MPHello/proj.emscripten/data.js
+example/MPHello/proj.cmake/build/
+*/proj.emscripten/build_release/
+example/MPHello/proj.win32/Debug_v*
