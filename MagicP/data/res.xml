@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<resources>		
-	<atlas>
-		<image file="images/logo2.png" />
-	</atlas>
-	<magicparticles file="particles/fireworks.ptc"/>
-</resources>
