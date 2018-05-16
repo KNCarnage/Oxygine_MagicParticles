@@ -90,7 +90,7 @@ namespace oxygine
 
 #if OXYGINE_RENDERER > 2
         STDRenderer* renderer = STDRenderer::instance;
-		Material::current->apply();
+		Material::null->apply();
 #else
         STDRenderer* renderer = safeCast<STDRenderer*>(rs.renderer);
 #endif
@@ -182,7 +182,7 @@ namespace oxygine
 
                     renderer->addVertices(vr, sizeof(vr));
                 }
-
+				renderer->flush();
                 Magic_CreateNextRenderedParticlesList(&rendering);
             }
         }
@@ -246,7 +246,7 @@ namespace oxygine
 
                     renderer->addVertices(vr, sizeof(vr));
                 }
-
+				renderer->flush();
                 Magic_CreateNextRenderedParticlesList(&rendering);
             }
         }
