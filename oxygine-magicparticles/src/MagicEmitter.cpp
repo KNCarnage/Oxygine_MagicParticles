@@ -115,7 +115,7 @@ namespace oxygine
 					rsCache().setBlendMode(blend_add);
                 else
 					rsCache().setBlendMode(blend_premultiplied_alpha);
-				rsCache().setTexture(resmp->getTexture(rendering.texture_id), 0);
+				rsCache().setTexture(0, resmp->getTexture(rendering.texture_id));
 
                 Vector2 pos;
                 for (int i = 0; i < rendering.count; i++)
@@ -196,7 +196,7 @@ namespace oxygine
 					rsCache().setBlendMode(blend_add);
                 else
 					rsCache().setBlendMode(blend_premultiplied_alpha);
-				rsCache().setTexture(resmp->getTexture(rendering.texture_id), 0);
+				rsCache().setTexture(0, resmp->getTexture(rendering.texture_id));
 
                 for (int i = 0; i < rendering.count; i++)
                 {
